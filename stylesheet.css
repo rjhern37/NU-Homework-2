@@ -1,0 +1,33 @@
+.cardHead {
+        /* mb-3 ml-4 mt-4 */
+    margin-bottom: 1;
+    margin-left: 1;
+    margin-top: 1;
+}
+
+.footer{
+    background-color: black;
+}
+
+
+/*
+body{
+  background-image: url('https://themepack.me/i/c/749x468/media/g/152/matrix-theme-2.jpg');
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} */
+
+#navv{
+    
+    float: right
+}
+
+
+/*
+.container{
+
+    border-style: groove;
+
+}*/
