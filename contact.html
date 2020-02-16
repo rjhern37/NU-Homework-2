@@ -8,6 +8,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+
+    <link href="C:\Users\Raydizzle\Desktop\code\NU-Homework-2\stylesheet.css" rel="stylesheet">
+
+
     <title>Contact</title>
   </head>
   <body>
@@ -20,27 +30,20 @@
       
         
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+          <div class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <a class="nav-item nav-link" href="portfolio2.html">Portfolio</a>
+            <a class="nav-item nav-link active" href="contact.html">Contact</a>
 
           </div>
       
     </div>
     </nav>
 
-    
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  
   
       <div class="container">
-                  <div class="card mb-3 ml-4 mt-4" style="max-width: 540px;">
+        <div class="row">
+                  <div class="card col-8 mb-3 ml-4 mt-4" style="max-width: 540px;">
                       <h1 class="ml-4 mt-4">Contact Me</h1> 
                         <hr>
                     <form>
@@ -48,55 +51,36 @@
                         <h4>Please fill out the form below</h4>
                           <div class="form-group">
                             <label for="formGroupExampleInput2">Name:</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="John Doe">
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="John Doe" required>
                           </div>
                           <div class="form-group">
                             <label for="formGroupExampleInput">Email:</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example@yahoo.com">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example@yahoo.com" required>
                           </div>
                           <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Message:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Blah Blah"></textarea>
+                            <label for="FormControlTextarea1">Message:</label>
+                            
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Type your message here" required></textarea>
                           </div>
-                      <!--
+                      
                           <input class="btn btn-primary" type="submit" value="Submit">
-                          //-->
+                          
 
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                            blah
-                          </button>
+                       
+                      
+                          
                       </div>
                     </form>
                   </div>
-
-                  <div class="modal" tabindex="-1" role="dialog">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title">Modal title</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <p>Modal body text goes here.</p>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
       </div>
+      </div>
+
+      <footer class="footer">
+        <h6>
+          Created By Ray Hernandez &copy; 
+        </h6>
+      </footer>
+
   </body>
-
-  <footer class="footer">
-    <h6>
-      Made By Ray Hernandez &copy; 
-    </h6>
-  </footer>
-
-<link href="C:\Users\Raydizzle\Desktop\code\NU-Homework-2\stylesheet.css" rel="stylesheet">
 
 </html>

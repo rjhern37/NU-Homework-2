@@ -1,33 +1,37 @@
-.cardHead {
-        /* mb-3 ml-4 mt-4 */
-    margin-bottom: 1;
-    margin-left: 1;
-    margin-top: 1;
-}
+
+
 
 .footer{
-    background-color: black;
+    color:black;
+    max-width: auto;
+    margin-top: 300px;
+    text-align: center;
+    border-style: none;
+    
+     
 }
 
 
-/*
+
 body{
-  background-image: url('https://themepack.me/i/c/749x468/media/g/152/matrix-theme-2.jpg');
+  background-image: url('https://image.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg');
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-} */
+} 
 
-#navv{
-    
-    float: right
+
+
+.container {
+
+  border-style: none;
+
+}
+.card {
+    color:black;
+    border-style: hidden;
+    border-color: #cccccc;
+ 
 }
 
-
-/*
-.container{
-
-    border-style: groove;
-
-}*/
